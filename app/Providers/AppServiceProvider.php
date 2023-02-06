@@ -4,9 +4,9 @@ namespace App\Providers;
 
 use App\Domain\Contexts\Contracts\Checkout;
 use App\Domain\Contexts\DTO\PricingRulesDTO;
+use App\Domain\Contexts\Rules\PricingRules\BulkDiscountRule;
+use App\Domain\Contexts\Rules\PricingRules\BuyOneGetOneFreeRule;
 use App\Domain\Services\CheckoutService;
-use App\Domain\Shared\Rules\PricingRules\BulkDiscountRule;
-use App\Domain\Shared\Rules\PricingRules\BuyOneGetOneFreeRule;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

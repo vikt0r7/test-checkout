@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Domain\Shared\Rules\PricingRules;
+namespace App\Domain\Contexts\Rules\PricingRules;
 
 use App\Domain\Contexts\Contracts\PricingRule;
 
