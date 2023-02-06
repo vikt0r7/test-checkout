@@ -7,8 +7,11 @@ namespace App\Domain\Contexts\DTO;
 class ProductDTO
 {
     private string $code;
+
     private string $name;
+
     private float $price;
+
     private int $count;
 
     public function __construct(string $code, string $name, float $price, int $count = 1)

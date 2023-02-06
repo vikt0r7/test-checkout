@@ -9,6 +9,7 @@ use App\Domain\Contexts\Contracts\PricingRule;
 class BulkDiscountRule implements PricingRule
 {
     private int $minCount;
+
     private float $discountedPrice;
 
     public function __construct(int $minCount, float $discountedPrice)

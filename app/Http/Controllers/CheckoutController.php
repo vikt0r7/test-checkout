@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-
 use App\Domain\Contexts\Contracts\Checkout;
 use App\Domain\Contexts\DTO\ProductDTO;
 use Illuminate\Contracts\Foundation\Application;

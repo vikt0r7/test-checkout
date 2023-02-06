@@ -45,7 +45,6 @@ class CheckoutService implements Checkout
                 $price = $priceRule->apply($price, $productCount);
             }
 
-
             $total += $price;
         }
 
